@@ -1,5 +1,5 @@
-# Dracula-cmder
-😱 A dark theme for cmder
+# Dracula for [cmder](http://cmder.net/)
+😱 A dark theme for [cmder](http://cmder.net/)
 
 ![Screenshot](https://raw.githubusercontent.com/oguhpereira/Dracula-cmder/master/cmdericon.PNG)
 
