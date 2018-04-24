@@ -1,11 +1,12 @@
 # Dracula for [cmder](http://cmder.net/)
-😱 A dark theme for [cmder](http://cmder.net/)
+
+> A dark theme for [cmder](http://cmder.net/).
 
 ![Screenshot](https://raw.githubusercontent.com/oguhpereira/Dracula-cmder/master/cmdericon.PNG)
 
 ## Install
 
-All instructions can be found at [draculatheme.com/cmder](https://draculatheme.com/x).
+All instructions can be found at [draculatheme.com/cmder](https://github.com/oguhpereira/Dracula-cmder/issues/1).
 
 ## Team
 
