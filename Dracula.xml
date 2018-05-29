@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2018-04-24 14:00:58" build="171025">
+		<key name=".Vanilla" modified="2018-05-29 14:58:18" build="171025">
 			<value name="StartType" type="hex" data="02"/>
 			<value name="CmdLine" type="string" data=""/>
 			<value name="StartTasksFile" type="string" data=""/>
@@ -9,20 +9,13 @@
 			<value name="StartFarFolders" type="hex" data="00"/>
 			<value name="StartFarEditors" type="hex" data="00"/>
 			<value name="StartCreateDelay" type="ulong" data="100"/>
-			<value name="Name" type="string" data="dracula"/>
-			<value name="ExtendColors" type="hex" data="01"/>
-			<value name="ExtendColorIdx" type="hex" data="00"/>
-			<value name="TextColorIdx" type="hex" data="00"/>
-			<value name="BackColorIdx" type="hex" data="10"/>
-			<value name="PopTextColorIdx" type="hex" data="10"/>
-			<value name="PopBackColorIdx" type="hex" data="10"/>
 			<value name="ColorTable00" type="dword" data="00362a28"/>
-			<value name="ColorTable01" type="dword" data="00f2f8f8"/>
+			<value name="ColorTable01" type="dword" data="00362a28"/>
 			<value name="ColorTable02" type="dword" data="007bfa50"/>
-			<value name="ColorTable03" type="dword" data="00f2f8f8"/>
+			<value name="ColorTable03" type="dword" data="00000000"/>
 			<value name="ColorTable04" type="dword" data="005555ff"/>
 			<value name="ColorTable05" type="dword" data="00c679ff"/>
-			<value name="ColorTable06" type="dword" data="008cfaf1"/>
+			<value name="ColorTable06" type="dword" data="00362a28"/>
 			<value name="ColorTable07" type="dword" data="00f2f8f8"/>
 			<value name="ColorTable08" type="dword" data="005a4744"/>
 			<value name="ColorTable09" type="dword" data="00f993bd"/>
@@ -32,7 +25,7 @@
 			<value name="ColorTable13" type="dword" data="00c679ff"/>
 			<value name="ColorTable14" type="dword" data="00f2f8f8"/>
 			<value name="ColorTable15" type="dword" data="00f2f8f8"/>
-			<value name="ColorTable16" type="dword" data="00f2f8f8"/>
+			<value name="ColorTable16" type="dword" data="005a4744"/>
 			<value name="ColorTable17" type="dword" data="00f2f8f8"/>
 			<value name="ColorTable18" type="dword" data="00f993bd"/>
 			<value name="ColorTable19" type="dword" data="008cfaf1"/>
@@ -48,9 +41,9 @@
 			<value name="ColorTable29" type="dword" data="00f993bd"/>
 			<value name="ColorTable30" type="dword" data="00f2f8f8"/>
 			<value name="ColorTable31" type="dword" data="00f2f8f8"/>
-			<value name="ExtendColors" type="hex" data="00"/>
-			<value name="ExtendColorIdx" type="hex" data="0e"/>
-			<value name="TextColorIdx" type="hex" data="ff"/>
+			<value name="ExtendColors" type="hex" data="01"/>
+			<value name="ExtendColorIdx" type="hex" data="00"/>
+			<value name="TextColorIdx" type="hex" data="00"/>
 			<value name="BackColorIdx" type="hex" data="10"/>
 			<value name="PopTextColorIdx" type="hex" data="10"/>
 			<value name="PopBackColorIdx" type="hex" data="10"/>
@@ -160,9 +153,9 @@
 			<value name="Cascaded" type="hex" data="01"/>
 			<value name="IntegralSize" type="hex" data="00"/>
 			<value name="WindowMode" type="dword" data="0000051f"/>
-			<value name="ConWnd X" type="long" data="136"/>
-			<value name="ConWnd Y" type="long" data="328"/>
-			<value name="LastMonitor" type="string" data="0,0,1680,1020"/>
+			<value name="ConWnd X" type="long" data="367"/>
+			<value name="ConWnd Y" type="long" data="229"/>
+			<value name="LastMonitor" type="string" data="62,0,1680,1050"/>
 			<value name="ConWnd Width" type="dword" data="00000078"/>
 			<value name="ConWnd Height" type="dword" data="00000026"/>
 			<value name="16bit Height" type="ulong" data="0"/>
@@ -409,7 +402,7 @@
 			<value name="Update.DownloadPath" type="string" data="%TEMP%\ConEmu"/>
 			<value name="Update.LeavePackages" type="hex" data="00"/>
 			<value name="Update.PostUpdateCmd" type="string" data="echo Last successful update&gt;ConEmuUpdate.info &amp;&amp; date /t&gt;&gt;ConEmuUpdate.info &amp;&amp; time /t&gt;&gt;ConEmuUpdate.info"/>
-			<key name="HotKeys" modified="2018-04-24 14:00:58" build="171025">
+			<key name="HotKeys" modified="2018-05-29 14:58:18" build="171025">
 				<value name="KeyMacroVersion" type="hex" data="02"/>
 				<value name="Multi.Modifier" type="dword" data="00000011"/>
 				<value name="Multi.ArrowsModifier" type="dword" data="0000005b"/>
@@ -603,9 +596,9 @@
 				<value name="DndRKey" type="hex" data="a2"/>
 				<value name="WndDragKey" type="dword" data="00121101"/>
 			</key>
-			<key name="Tasks" modified="2018-04-24 14:00:58" build="171025">
+			<key name="Tasks" modified="2018-05-29 14:58:18" build="171025">
 				<value name="Count" type="long" data="8"/>
-				<key name="Task1" modified="2018-04-24 14:00:58" build="171025">
+				<key name="Task1" modified="2018-05-29 14:58:18" build="171025">
 					<value name="Name" type="string" data="{Powershell::Powershell}"/>
 					<value name="Flags" type="dword" data="00000003"/>
 					<value name="Hotkey" type="dword" data="00121154"/>
@@ -616,7 +609,7 @@
 					<value name="Active" type="long" data="2"/>
 					<value name="Count" type="long" data="3"/>
 				</key>
-				<key name="Task2" modified="2018-04-24 14:00:58" build="171025">
+				<key name="Task2" modified="2018-05-29 14:58:18" build="171025">
 					<value name="Name" type="string" data="{cmd::Cmder as Admin}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -625,7 +618,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task3" modified="2018-04-24 14:00:58" build="171025">
+				<key name="Task3" modified="2018-05-29 14:58:18" build="171025">
 					<value name="Name" type="string" data="{cmd::Cmder}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -634,7 +627,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task4" modified="2018-04-24 14:00:58" build="171025">
+				<key name="Task4" modified="2018-05-29 14:58:18" build="171025">
 					<value name="Name" type="string" data="{Powershell::PowerShell as Admin}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -643,7 +636,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task5" modified="2018-04-24 14:00:58" build="171025">
+				<key name="Task5" modified="2018-05-29 14:58:18" build="171025">
 					<value name="Name" type="string" data="{bash::mintty as Admin}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -652,7 +645,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task6" modified="2018-04-24 14:00:58" build="171025">
+				<key name="Task6" modified="2018-05-29 14:58:18" build="171025">
 					<value name="Name" type="string" data="{bash::mintty}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -661,7 +654,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task7" modified="2018-04-24 14:00:58" build="171025">
+				<key name="Task7" modified="2018-05-29 14:58:18" build="171025">
 					<value name="Name" type="string" data="{bash::bash as Admin}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -670,7 +663,7 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 				</key>
-				<key name="Task8" modified="2018-04-24 14:00:58" build="171025">
+				<key name="Task8" modified="2018-05-29 14:58:18" build="171025">
 					<value name="Name" type="string" data="{bash::bash}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
@@ -680,12 +673,12 @@
 					<value name="Count" type="long" data="1"/>
 				</key>
 			</key>
-			<key name="Apps" modified="2018-04-24 14:00:58" build="171025">
+			<key name="Apps" modified="2018-05-29 14:58:18" build="171025">
 				<value name="Count" type="long" data="0"/>
 			</key>
-			<key name="Colors" modified="2018-04-24 14:00:58" build="171025">
-				<value name="Count" type="long" data="2"/>
-				<key name="Palette1" modified="2018-04-24 14:00:58" build="171025">
+			<key name="Colors" modified="2018-05-29 14:58:18" build="171025">
+				<value name="Count" type="long" data="1"/>
+				<key name="Palette1" modified="2018-05-29 14:58:18" build="171025">
 					<value name="Name" type="string" data="Dracula"/>
 					<value name="ExtendColors" type="hex" data="01"/>
 					<value name="ExtendColorIdx" type="hex" data="00"/>
