@@ -6,7 +6,11 @@
 
 ## Install
 
-All instructions can be found at [draculatheme.com/cmder](https://github.com/oguhpereira/Dracula-cmder/issues/1).
+* Open your cmder
+* Click Win+Alt+P
+* Click in Import
+* Select the Dracula.xml
+* Save Settings
 
 ## Team
 
