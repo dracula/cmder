@@ -1,16 +1,12 @@
-# Dracula for [cmder](http://cmder.net/)
+# Dracula for [Cmder](http://cmder.net/)
 
-> A dark theme for [cmder](http://cmder.net/).
+> A dark theme for [Cmder](http://cmder.net/).
 
-![Screenshot](https://raw.githubusercontent.com/oguhpereira/Dracula-cmder/master/cmdericon.PNG)
+![Screenshot](./screenshot.png)
 
 ## Install
 
-* Open your cmder
-* Click Win+Alt+P
-* Click in Import
-* Select the Dracula.xml
-* Save Settings
+All instructions can be found at [draculatheme.com/cmder](https://draculatheme.com/cmder).
 
 ## Team
 
