@@ -46,7 +46,7 @@
 					<value name="PopTextColorIdx" type="hex" data="10"/>
 					<value name="PopBackColorIdx" type="hex" data="10"/>
 					<value name="ColorTable00" type="dword" data="00362a28"/>
-					<value name="ColorTable01" type="dword" data="00362a28"/>
+					<value name="ColorTable01" type="dword" data="00cc6374"/>
 					<value name="ColorTable02" type="dword" data="00f993bd"/>
 					<value name="ColorTable03" type="dword" data="00fde98b"/>
 					<value name="ColorTable04" type="dword" data="005555ff"/>
